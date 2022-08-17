@@ -1,7 +1,5 @@
 ## Git and Git Branching Cheat stylesheet
 
-Categories of git commands, and practice with branching.
-
 ### Basic commands
 * `git init` - initialize current directory with repository
 * `git add .` - add all new or changed files in current directory git index, staging them for commit
@@ -13,7 +11,6 @@ Categories of git commands, and practice with branching.
 * `git status` - show status of current working directory
 * `git log` - list commit history
 * `git log --oneline` - list commit history
-<<<<<<< HEAD
 
 
 ## Branch commands
@@ -23,9 +20,9 @@ Categories of git commands, and practice with branching.
 * `git checkout -b otherBranch` -switches to otherBranch and create if it doesn't already exist
 * `git branch -M newBranch` - to rename your branch
 
+###Remote subcommands
+* `git remote add origin someUrl` - connect local repo to remote repo url as `origin`
+* `git push origin branchName` - push local commits to remote repo into branch `branchName` 
 ##Other commands
 * `git help` -List git subcommands and options
 * `git config --help` -show options for `git config`
-=======
-* `git config -l` list local git configuration settings
->>>>>>> a1cff7fdf24839ff6774c98d6f39f84cfa894ecc
