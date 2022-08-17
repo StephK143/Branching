@@ -17,5 +17,9 @@
 * `git branch` -list local branches, highlights branch you are working on
 * `git branch newBranch` - create new branch
 * `git checkout newBranch` - switching your working branch
-* `git checkout -b otherBranch` -switches to otherBranch and create if it doesn't already exiest
+* `git checkout -b otherBranch` -switches to otherBranch and create if it doesn't already exist
 * `git branch -M newBranch` - to rename your branch
+
+##Other commands
+* `git help` -List git subcommands and options
+* `git config --help` -show options for `git config`
