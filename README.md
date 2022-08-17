@@ -1,5 +1,7 @@
 ## Git and Git Branching Cheat stylesheet
 
+Categories of git commands, and practice with branching.
+
 ### Basic commands
 * `git init` - initialize current directory with repository
 * `git add .` - add all new or changed files in current directory git index, staging them for commit
