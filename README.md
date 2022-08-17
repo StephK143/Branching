@@ -11,3 +11,11 @@
 * `git status` - show status of current working directory
 * `git log` - list commit history
 * `git log --oneline` - list commit history
+
+
+## Branch commands
+* `git branch` -list local branches, highlights branch you are working on
+* `git branch -M newBranch` - to rename your branch
+* `git branch newBranch` - create new branch
+
+* `git checkout newBranch` - switching your working branch
