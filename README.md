@@ -15,7 +15,7 @@
 
 ## Branch commands
 * `git branch` -list local branches, highlights branch you are working on
-* `git branch -M newBranch` - to rename your branch
 * `git branch newBranch` - create new branch
-
 * `git checkout newBranch` - switching your working branch
+* `git checkout -b otherBranch` -switches to otherBranch and create if it doesn't already exiest
+* `git branch -M newBranch` - to rename your branch
